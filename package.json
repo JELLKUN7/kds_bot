@@ -1,0 +1,14 @@
+{
+  "name": "kds_bot",
+  "version": "1.0.0",
+  "description": "Korea Design Simulations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HyeonSeok Lee(BJ Plane) / qaznm0@naver.com",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
