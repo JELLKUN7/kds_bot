@@ -57,4 +57,4 @@ bot.on('guildMemberAdd', guildMember => {
 
 process.on("uncaughtException", function(err) { console.error("uncaughtException (Node is alive)", err); });
 
-bot.login(botsettings.token);
+bot.login(process.env.TOKEN);
