@@ -5,8 +5,8 @@ module.exports = bot => {
 
 
     let statuses = [
-        "Welcome to KDS",
-        "Korea Design Simulations"
+        "Station Systems",
+        "Commands : !help"
     ]
 
     setInterval(function() {
