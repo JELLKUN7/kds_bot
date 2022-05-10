@@ -3,7 +3,7 @@ const botsettings = require('../botsettings.json');
 
 module.exports.run = async (bot, message, args) => {
     var text = message.content.split(' ').slice(1).join(' ')
-    if(!message.member.roles.cache.some(r=>["Admin Team","Development Team","Moderation Team"].includes(r.name)) && message.author.id !== '251707192313511947'){
+    if(!message.member.roles.cache.some(r=>["Admin Team","Development Team","Moderation Team","CEO","Assistant CEO","Flight Director","Capital Flight Director","Jeju Flight Director","Japan Flight Director"].includes(r.name)) && message.author.id !== '251707192313511947'){
         const ErrorEmbed = new Discord.MessageEmbed()
 			.setColor(botsettings.errorColor)
 			.setTitle('**[ ❌ Command Error Guidance ]**')
